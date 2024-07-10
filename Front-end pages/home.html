@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Tracing your food back to it's source!</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+    <!-- Navbar -->
+    <div class="w3-top">
+    <div class="w3-bar w3-black w3-card">
+        <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+        <a href="#farmer" class="w3-bar-item w3-button w3-padding-large w3-hide-small">FARMER</a>
+        <a href="#logistics" class="w3-bar-item w3-button w3-padding-large w3-hide-small">LOGISTICS</a>
+        <a href="#consumer" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONSUMER</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+        <a href="#login" class="w3-bar-item w3-button w3-padding-large w3-hide-small" routerLink="/login">LOGIN</a>
+        <a href="#register" class="w3-bar-item w3-button w3-padding-large w3-hide-small" routerLink="/register">REGISTER</a>
+
+    </div>
+    </div>
+
+
+
+    <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+    <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+    <a href="#farmer" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">FARMER</a>
+    <a href="#logistics" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">LOGISTICS</a>
+    <a href="#consumer" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONSUMER</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+    </div>
+
+    <!-- Page content -->
+    <div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+
+    <!-- The farmer Section -->
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px">
+        <h2 class="w3-wide">SUPPLY CHAIN TRACING USING BLOCKCHAIN</h2>
+        <p class="w3-opacity"><i>A journey from farms to your kitchen</i></p>
+        <p class="w3-justify">Food supply chain management is the flow of agricultural products from farms, harvesters, processing, distributing, retail and finally consumers. It is a sequence that starts from food production and extends till final consumption. We aim to trace and authenticate food produced using blockchain technology.</p>
+        <div class="w3-row w3-padding-32">
+        <div class="w3-third">
+            <p>Farmer</p>
+            <img src="https://www.thethirdpole.net/wp-content/uploads/2014/09/Bihar-India-farming.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:85% ">
+        </div>
+        <div class="w3-third">
+            <p>Logistics</p>
+            <img src="https://images.squarespace-cdn.com/content/v1/570fb42e20c647146b42f468/1569094277803-HLLHA98P2URDO87REGQX/ke17ZwdGBToddI8pDm48kPmLlvCIXgndBxNq9fzeZb1Zw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIFMLRh9LbupWL4Bv1SDYZc4lRApws2Snwk0j_RSxbNHMKMshLAGzx4R3EDFOm1kBS/40270010_1846102505466514_6468250060927795200_n.jpg?format=1000w" class="w3-round w3-margin-bottom" alt="Random Name" style="width:75%">
+        </div>
+        <div class="w3-third">
+            <p>Consumer</p>
+            <img src="https://img.theculturetrip.com/1440x807/smart/wp-content/uploads/2017/04/veg-shutterstock_326278031-casanisa.jpg" class="w3-round" alt="Random Name" style="width:100%">
+        </div>
+        </div>
+    </div>
+<!--Farmer section-->
+<div class="w3-black" id="farmer">
+        <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+        <h2 class="w3-wide w3-center"></h2>
+        <p class="w3-opacity w3-center"><i>Farming aspects</i></p><br>
+
+        <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+            <div class="w3-third w3-margin-bottom">
+            <img src="https://greendiary.com/wp-content/uploads/2018/10/Gardening-Starts-With-Proper-Seed-Selection-3.jpg" alt="New York" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+                <p><b>Crop Selection</b></p>
+                <p>Various crops are selected to plant, based on their demand in the market.</p>
+                <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Know More</button>
+            </div>
+            </div>
+            <div class="w3-third w3-margin-bottom">
+            <img src="https://hgtvhome.sndimg.com/content/dam/images/grdn/fullset/2013/2/6/0/fertilizing-the-lawn.jpg.rend.hgtvcom.1280.960.suffix/1452644532802.jpeg" alt="Paris" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+                <p><b>Fertilizing</b></p>
+                <p>A natural or synthetic material which is used to supply nutrients to growing plants.</p>
+                <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Know More</button>
+            </div>
+            </div>
+            <div class="w3-third w3-margin-bottom">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Agriculture_in_Volgograd_Oblast_002.JPG" alt="San Francisco" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+                <p><b>Harvesting</b></p>
+                <p>Reaping plants that are ready to be harvested after maturity using various methods.</p>
+                <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Know More</button>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- The logistics Section -->
+    <div class="w3-black" id="logistics">
+        <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+        <h2 class="w3-wide w3-center"></h2>
+        <p class="w3-opacity w3-center"><i>What happens in logistics?</i></p><br>
+
+        <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+            <div class="w3-third w3-margin-bottom">
+            <img src="https://www.hardies.com/attachments/News/39/main/95944718-3101259283273217-1427145958046564352-n.jpg" alt="New York" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+                <p><b>Transport</b></p>
+                <p>Loads all the harvested produce and transports it to the storage facilities.</p>
+                <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Know More</button>
+            </div>
+            </div>
+            <div class="w3-third w3-margin-bottom">
+            <img src="https://www.oxidationtech.com/media/wysiwyg/Fruit_1.png" alt="Paris" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+                <p><b>Storage</b></p>
+                <p>Responsible for the safe storage and proper maintenance of products. </p>
+                <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Know More</button>
+            </div>
+            </div>
+            <div class="w3-third w3-margin-bottom">
+            <img src="https://adventurebagging.co.uk/wp-content/uploads/2013/11/veg-stall-real-food-market-london.jpg" alt="San Francisco" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+                <p><b>Retail</b></p>
+                <p>Top-graded, standardized products are sold to end-consumer.</p>
+                <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Know More</button>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+    <!--Consumer section-->
+    <div class="w3-black" id="consumer">
+      <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center"></h2>
+      <p class="w3-opacity w3-center"><i>How it ends up on your table!</i></p><br>
+
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+          <div class="w3-third w3-margin-bottom">
+          <img src="https://www.luxtag.io/wp-content/uploads/2020/01/pasted-image-0-1.png" alt="New York" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+              <p><b>Tracing</b></p>
+              <p>The entire process from farms to kitchen is traced and displayed to the end-user.</p>
+              <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Know More</button>
+          </div>
+          </div>
+          <div class="w3-third w3-margin-bottom">
+          <img src="https://img.deusm.com/informationweek/November19/data_quality-ra2_studio-stock.jpg" alt="Paris" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+              <p><b>Quality Assurance</b></p>
+              <p>Tracing mechanisms ensure the quality of the product on the plate.</p>
+              <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Know More</button>
+          </div>
+          </div>
+          <div class="w3-third w3-margin-bottom">
+          <img src="https://www.eurocoop.coop/uploads/t/tivanov/6e1e8dc40b~.jpg" alt="San Francisco" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+              <p><b>Safety</b></p>
+              <p>Products are checked and re-checked to make sure they are safe.</p>
+              <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Know More</button>
+          </div>
+          </div>
+      </div>
+      </div>
+  </div>
+
+
+
+
+    <!-- Ticket Modal -->
+    <div id="ticketModal" class="w3-modal">
+        <div class="w3-modal-content w3-animate-top w3-card-4">
+        <header class="w3-container w3-teal w3-center w3-padding-32"> 
+            <span onclick="document.getElementById('ticketModal').style.display='none'" 
+        class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+            <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>CHECKING</h2>
+        </header>
+        <div class="w3-container">
+            <p>The categories that are checked in terms of transportation are- </p>
+            <p>1. Details of the vehicle.</p>
+            <p>2. Safety of vehicle used to transport to storage facility.</p>
+            <p>3. The shelf-life of products being stored.</p>
+            <p>4. Checking after the said produce is transported.</p>
+        </div>
+        </div>
+    </div>
+
+    <!-- The Contact Section -->
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+        <h2 class="w3-wide w3-center">CONTACT</h2>
+        <p class="w3-opacity w3-center"><i>Want to know further?</i></p>
+        <div class="w3-row w3-padding-32">
+        <div class="w3-col m6 w3-large w3-margin-bottom">
+            <i class="fa fa-map-marker" style="width:30px"></i>Andhra Pradesh, India<br>
+            <i class="fa fa-phone" style="width:30px"></i> Phone: +91 8464824588<br>
+            <i class="fa fa-envelope" style="width:30px"> </i> Email: 170031532@kluniversity.in<br>
+        </div>
+        <div class="w3-col m6">
+            <form action="/action_page.php" target="_blank">
+            <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                <div class="w3-half">
+                <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+                </div>
+                <div class="w3-half">
+                <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+                </div>
+            </div>
+            <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+            <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+            </form>
+        </div>
+        </div>
+    </div>
+    
+    <!-- End Page Content -->
+    </div>
+
+    <!-- Image of location/map -->
+    <img src="https://robinkelly.house.gov/sites/robinkelly.house.gov/files/featured_image/issues/Corn.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </footer>
+
+    <script>
+    // Automatic Slideshow - change image every 4 seconds
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 4000);    
+    }
+
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    var modal = document.getElementById('ticketModal');
+    window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+    }
+    </script>
+
+    </body>
+    
+</html>

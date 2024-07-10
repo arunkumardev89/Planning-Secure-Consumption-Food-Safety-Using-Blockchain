@@ -1,0 +1,36 @@
+October 1-5:
+
+-Literature survey
+-Methodology
+-Technologies Used
+-Motivation
+
+October 17:
+
+-User Stories
+
+November 6-10: 
+
+-Installation of git,nodejs,metamask
+-Setting up accounts
+
+November 15:
+
+-study over front end methodologies.
+-html pages for logistics
+
+November 19:
+
+-worked on code 
+
+November 25:
+
+-Done modifications to front-end
+-Documentation
+
+December 5-13:
+
+-Documentation
+-Paper editing
+-Proofreading
+
